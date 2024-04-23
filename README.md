@@ -6,9 +6,11 @@ Pet Management Service is a comprehensive microservice designed to handle variou
 gradle init --type java-application
 ./gradlew init --type java-application
 
-gradlew build
+./gradlew clean
 
-gradlew test
+./gradlew build
+
+./gradlew test
 
 java -jar app/build/libs/app.jar
 
