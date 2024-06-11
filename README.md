@@ -12,5 +12,15 @@ gradle init --type java-application
 
 ./gradlew test
 
+./gradlew quarkusDev
+
 java -jar app/build/libs/app.jar
 
+
+gradle app:imageBuild
+
+gradle app:imagePush
+
+
+## runtime
+Java 21 (TLS)

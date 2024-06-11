@@ -1,0 +1,7 @@
+[
+  {
+    "name" : "pet.management.model.Pet",
+    "allDeclaredConstructors" : true,
+    "allDeclaredMethods" : true
+  }
+]
