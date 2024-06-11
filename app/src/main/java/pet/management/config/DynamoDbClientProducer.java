@@ -14,7 +14,7 @@ public class DynamoDbClientProducer {
     @Singleton
     public DynamoDbClient createDynamoDbClient() {
         return DynamoDbClient.builder()
-                .region(Region.US_EAST_1) // Reemplaza por tu región
+                .region(Region.US_EAST_1)
                 .credentialsProvider(DefaultCredentialsProvider.create())
                 .build();
     }
