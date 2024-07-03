@@ -24,7 +24,8 @@ public class PetController {
 
     @GET
     public List<Pet> getAllPets() {
-        return petService.getAllPets();
+        //return petService.getAllPets();
+        return  petService.findPets();
     }
 
     @GET

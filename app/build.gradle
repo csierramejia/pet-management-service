@@ -36,6 +36,8 @@ dependencies {
     implementation 'io.quarkus:quarkus-resteasy'
     implementation 'io.quarkus:quarkus-container-image-docker'
 
+    implementation("io.quarkus:quarkus-smallrye-graphql")
+
     implementation group: 'software.amazon.awssdk', name: 'dynamodb-enhanced', version: '2.25.69'
     implementation group: 'software.amazon.awssdk', name: 'auth', version: '2.25.69'
     testImplementation group: 'software.amazon.awssdk', name: 'url-connection-client', version: '2.25.69'

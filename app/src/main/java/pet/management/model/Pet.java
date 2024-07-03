@@ -12,5 +12,8 @@ public class Pet {
     private String  id;
     private String name;
     private String species;
+    private String size;
+    private String gender;
+    private int age;
 
 }
